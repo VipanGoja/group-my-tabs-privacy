@@ -30,17 +30,48 @@
       text-decoration: none;
       border-radius: 6px;
     }
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .icon-16 {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  }
+
+  .icon-32 {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  .icon-48 {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+    
   </style>
 </head>
 <body>
   <h1>Group My Tabs Icon Exporter</h1>
   <p>This page creates 16×16, 32×32, and 48×48 PNG files from your 128×128 source icon.</p>
 
+    <div class="icons">
+    <img src="./icon128.png" alt="Group My Tabs icon 16" class="icon-16">
+    <img src="./icon128.png" alt="Group My Tabs icon 32" class="icon-32">
+    <img src="./icon128.png" alt="Group My Tabs icon 48" class="icon-48">
+  </div>
+
   <div id="output"></div>
 
   <script>
     const sourceImage = "./icon128.png";
-    const sizes = [16, 32, 48];
+    const sizes = [16, 32, 48,128];
 
     const img = new Image();
     img.src = sourceImage;
