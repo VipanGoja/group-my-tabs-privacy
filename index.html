@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy - Group My Tabs</title>
+    <title>Privacy Policy - Unmessy Tabs</title>
     <style>
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -16,57 +16,179 @@
       h1, h2 {
         line-height: 1.25;
       }
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
     </style>
   </head>
   <body>
-    <h1>Privacy Policy for Group My Tabs</h1>
-    <p><strong>Last updated:</strong> April 15, 2026</p>
+  <div class="title-row">
+    <img src="./icon128.png" alt="Unmessy Tabs icon" class="icon">
+    <h1>Privacy Policy for Unmessy Tabs</h1>
+  </div>
+    <p><strong>Last updated:</strong> May 11, 2026</p>
 
     <p>
-      Group My Tabs is a Chrome extension that helps users organize related tabs
-      in the current Chrome window into Chrome tab groups.
+      Unmessy Tabs is a Chrome extension that helps users organize, find, and
+      manage open browser tabs. It provides a side panel for viewing open tabs,
+      grouping related tabs, managing Chrome tab groups, and remembering useful
+      workspace/group state locally in the browser.
+    </p>
+     <h2>Summary</h2>
+    <p>
+      Unmessy Tabs is designed to process tab and group information locally in
+      your browser. The extension does not sell your data and does not send tab URLs, tab titles,
+browsing history, page contents, group names, or locally stored workspace data
+to the developer or any third party.
+    </p>
+    <p>
+ The extension uses Google Analytics 4 to collect limited product usage
+  analytics, such as which extension actions are used. These analytics events
+  are used only to understand and improve the extension. No tab URLs, tab
+  titles, browsing history entries, page contents, search query text, or group
+  names are collected in analytics or sent to Google Analytics.
     </p>
 
-    <h2>What data the extension accesses</h2>
-    <p>The extension accesses tab information in the current Chrome window, including:</p>
-    <ul>
-      <li>tab URLs</li>
-      <li>tab titles</li>
-      <li>tab group state needed to create and manage Chrome tab groups</li>
+
+     <h2>Data the extension accesses</h2>
+    <p>
+      To provide its tab management features, the extension may access the
+      following information through Chrome extension APIs:
+    </p>
+  <ul>
+      <li>Open tab URLs</li>
+      <li>Open tab titles</li>
+      <li>Tab window information</li>
+      <li>Chrome tab group state</li>
+      <li>Locally stored extension preferences and workspace state</li>
     </ul>
 
-    <h2>How the extension uses this data</h2>
-    <p>The extension uses this information only to:</p>
-    <ul>
-      <li>analyze tabs in the current Chrome window</li>
-      <li>group related tabs into Chrome tab groups</li>
-      <li>let users rename groups</li>
-      <li>let users manually adjust grouping behavior</li>
+     <p>
+      If you choose to use history-based search or recovery features, the
+      extension may request Chrome's optional <code>history</code> permission.
+      This permission is used only after you grant it and only to show relevant
+      browser history results inside the extension.
+    </p>
+
+    <h2>How the extension uses tab and group data</h2>
+    <p>The extension uses tab and group data only to:</p>
+   <ul>
+      <li>Show your open tabs in the side panel</li>
+      <li>Group related tabs into Chrome tab groups</li>
+      <li>Let you rename, collapse, expand, ungroup, hide, sync, or manage groups</li>
+      <li>Remember useful group/workspace state locally</li>
+      <li>Respect manual grouping preferences and overrides</li>
+      <li>Help you find relevant open tabs or, if permitted, recent history results</li>
     </ul>
 
-    <h2>What data the extension stores</h2>
-    <p>The extension stores the following locally in Chrome storage on the user’s browser:</p>
-    <ul>
-      <li>custom group names</li>
-      <li>manual grouping preferences and overrides</li>
+ <h2>Data stored locally</h2>
+    <p>
+      Unmessy Tabs stores some information locally in Chrome storage on your
+      device. This may include:
+    </p>
+  <ul>
+      <li>Custom group names</li>
+      <li>Manual grouping preferences and overrides</li>
+      <li>Remembered group/workspace state</li>
+      <li>Side panel UI state</li>
+      <li>Sort or display preferences</li>
+      <li>A randomly generated analytics client identifier</li>
     </ul>
+
+       <p>
+      Locally stored tab/workspace data remains in your browser unless you clear
+      extension data, reset Chrome storage, or uninstall the extension.
+    </p>
+
+     <h2>Analytics data</h2>
+    <p>
+      Unmessy Tabs uses Google Analytics 4 to collect limited product usage
+      analytics. Analytics events may include actions such as:
+    </p>
+    <ul>
+      <li>Opening the side panel</li>
+      <li>Opening a new tab from the extension</li>
+      <li>Using auto-grouping</li>
+      <li>Using tab actions such as go to tab, move tab, or close tab</li>
+      <li>Using search</li>
+      <li>Changing sort mode</li>
+      <li>Using group actions such as rename, expand, collapse, ungroup, or delete</li>
+    </ul>
+
+    <p>
+      Analytics events may include limited non-content parameters such as action
+      source, sort mode, group action type, and extension version.
+    </p>
+
+    <p>
+      Unmessy Tabs does not intentionally send tab URLs, tab titles, page
+      contents, browsing history entries, search query text, group names, or
+      personally identifying information to Google Analytics.
+    </p>
+
+    <h2>Floating launcher</h2>
+    <p>
+      Unmessy Tabs may show a small floating launcher on webpages so you can open
+      the extension side panel quickly. This launcher is used only to open or
+      close the extension interface. It does not read page contents, form fields,
+      passwords, messages, or other website content.
+    </p>
 
     <h2>Data sharing</h2>
-    <p>
-      Group My Tabs does not sell, transmit, or share tab data, browsing data,
-      or stored user data with the developer or with third parties.
+  <p>
+      Unmessy Tabs does not sell user data. The extension does not share tab
+      URLs, tab titles, browsing history, page contents, group names, or locally
+      stored workspace data with the developer or third parties.
+    </p>
+       <p>
+      Limited product usage analytics are shared with Google Analytics 4, a service
+      provided by Google, for the purpose of understanding extension usage and
+      improving the product.
     </p>
 
     <h2>Remote servers</h2>
-    <p>
-      Group My Tabs does not send tab URLs, titles, browsing activity, or stored
-      extension data to remote servers.
+     <p>
+      The extension sends analytics events to Google Analytics over HTTPS.
+      Unmessy Tabs does not operate its own backend server for storing your tab,
+      group, browsing history, or workspace data.
     </p>
 
     <h2>Data retention</h2>
+     <p>
+      Data stored locally by the extension remains on your device until you clear
+      extension data, reset Chrome storage, or uninstall the extension.
+    </p>
+
     <p>
-      Data stored by the extension remains in the user’s local Chrome storage
-      until the user clears extension data or removes the extension.
+      Analytics data sent to Google Analytics is retained according to the
+      analytics settings configured for the Google Analytics property.
+    </p>
+
+      <h2>Children's privacy</h2>
+    <p>
+      Unmessy Tabs is not directed to children and does not knowingly collect
+      personal information from children.
+    </p>
+
+    <h2>Chrome Web Store Limited Use</h2>
+<p>
+  The use of information received from Chrome extension APIs will adhere to the
+  Chrome Web Store User Data Policy, including the Limited Use requirements.
+</p>
+     
+    <h2>Changes to this policy</h2>
+    <p>
+      This privacy policy may be updated when the extension changes. The latest
+      version will be available at this page.
     </p>
 
     <h2>Contact</h2>
